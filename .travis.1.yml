@@ -1,0 +1,6 @@
+jobs:
+  include:
+    - name: build
+      stage: build
+      script:
+        - echo 1
