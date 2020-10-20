@@ -1,0 +1,9 @@
+import:
+  - source: .travis.1.yml
+  - source: .travis.2.yml
+branches:
+  only:
+    - master
+stages:
+  - name: build
+  
